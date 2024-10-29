@@ -6,3 +6,5 @@ while i < 10:
     time.sleep(1)
     print('Written in Remote Repo')
     i = i + 1
+
+print('This is written after creating slave branch')
