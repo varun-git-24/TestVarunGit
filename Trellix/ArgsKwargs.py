@@ -116,14 +116,14 @@ def fibo(n):
 
 print(fibo(10))
 
-# def gen(n):
-#     a , b = 0 , 1
-#     for i in range(n):
-#         yield i
-#         a , b = b , a + b
-#
-# px = gen(5)
-# print(next(px))
+def gen(n):
+    a , b = 0 , 1
+    for i in range(n):
+        yield i
+        a , b = b , a + b
+
+px = gen(5)
+print(next(px))
 
 x = [1,2,3,4,4]
 dict = {}
